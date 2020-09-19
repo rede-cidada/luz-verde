@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Aquecedor from "./components/Aquecedor/Aquecedor";
+import Footer from "./components/Footer/Footer";
 import { Header } from "./components/Header/Header";
 import Team from './components/Team/Team';
 
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Aquecedor />
       <Team />
+      <Footer/>
     </div>
   );
 }
