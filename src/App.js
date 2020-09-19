@@ -1,14 +1,13 @@
-import React from 'react';
-import './App.css';
-import Aquecedor from './components/Aquecedor/Aquecedor';
-import Menu from './components/Menu/Menu.js';
+import React from "react";
+import "./App.css";
+import Aquecedor from "./components/Aquecedor/Aquecedor";
+import { Header } from "./components/Header/Header";
 
-
-function App()  {
+function App() {
   return (
     <div className="App">
-      <Menu />
-      <Aquecedor/>
+      <Header />
+      <Aquecedor />
     </div>
   );
 }
