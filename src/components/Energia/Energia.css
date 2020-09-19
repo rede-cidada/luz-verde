@@ -1,0 +1,26 @@
+.sec-Energia {
+    margin-bottom: 80px;
+}
+
+.Title-Energia {
+    text-align: center;
+}
+
+.Content-Energia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media(min-width: 750px) {
+    .Content-Energia {
+        flex-direction: row;
+        gap: 180px;
+    }
+
+    .Text-Energia {
+        width: 45%;
+    }
+}
+    
