@@ -1,26 +1,26 @@
 .sec-Energia {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
+  margin-top: 150px;
 }
 
 .Title-Energia {
-    text-align: center;
+  text-align: center;
 }
 
 .Content-Energia {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
 }
 
-@media(min-width: 750px) {
-    .Content-Energia {
-        flex-direction: row;
-        gap: 180px;
-    }
+@media (min-width: 750px) {
+  .Content-Energia {
+    flex-direction: row;
+    gap: 180px;
+  }
 
-    .Text-Energia {
-        width: 45%;
-    }
+  .Text-Energia {
+    width: 45%;
+  }
 }
-    

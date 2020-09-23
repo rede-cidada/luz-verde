@@ -1,7 +1,31 @@
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #008036;
+  border-bottom: 6px solid #ffff66;
+  padding: 0 30px;
+}
+
 .logo {
   width: 100px;
 }
 
-nav {
-  background-color: #008036;
+a {
+  margin: 0 20px;
+  padding: 10px 0;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.secoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: 600;
 }
