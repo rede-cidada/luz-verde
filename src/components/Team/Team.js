@@ -5,29 +5,35 @@ import mariah from '../../assets/MARÍ.png';
 import shellcya from '../../assets/SHE.png';
 import vanessa from '../../assets/VAN.png';
 
+import '../Team/Team.css';
+
 function Team() {
     return (
         <div>
-            <h2>Desenvovedores</h2>
-            <img src={israel} alt="integrante israel "/>
-            <p><a href="#">Israel Batista</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <h2 className='titulo_team'>Quem Somos?</h2>
+            <div className='caixa_team'>
+                <img className='img_team' src={israel} alt="integrante israel "/>
+                <img className='img_team' src={marilia} alt="integrante marilia"/>
+                <img className='img_team' src={mariah} alt="integrante mariah"/>
+                <img className='img_team' src={shellcya} alt="integrante shellcya"/>
+                <img className='img_team' src={vanessa} alt="integrante vanessa"/>
+            </div>
+            <div className="nomes_team">
+             <p className='nome_team'>Israel Batista</p>
+             <p className='nome_team'>Mariah Guedes</p>
+             <p className='nome_team'>Marília Andrade</p>
+             <p className='nome_team'>Shellcya Habiakel</p>
+             <p className='nome_team'>Vanessa Oliveira</p>
+            </div>
 
-            <img src={marilia} alt="integrante marilia"/>
-            <p><a href="#">Marília Andrade</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-
-            <img src={mariah} alt="integrante mariah"/>
-            <p><a href="#">Mariah Guedes</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-
-            <img src={shellcya} alt="integrante shellcya"/>
-            <p><a href="#">Shellcya Habiakel</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
-
-            <img src={vanessa} alt="integrante vanessa"/>
-            <p><a href="#">Vanessa Oliveira</a></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <div className="textos_team">
+              <p className="texto_team">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <p className="texto_team">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <p className="texto_team">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <p className="texto_team">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+              <p className="texto_team">Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            </div>
+            
         </div>
     )
 }

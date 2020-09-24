@@ -1,0 +1,38 @@
+.titulo_team {
+    font-size: 3rem;
+    margin: 2rem 0 2rem 2rem;
+}
+
+.caixa_team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem;
+}
+
+.img_team {
+    width: 200px;
+}
+
+.nomes_team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.nome_team {
+    margin-left: 1.30rem;
+}
+
+.textos_team {
+    display: flex;
+    justify-content: cenetr;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.texto_team {
+    margin-left: 2.3rem;
+}
