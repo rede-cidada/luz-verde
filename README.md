@@ -6,7 +6,7 @@ Um site sobre energia renovável de uma forma prática e acessível.
 
 Nosso objetivo é incentivar o uso da energia renovável criando um aquecedor. Informando a lista de materiais necessários, e multiplicando pelo número de casas.
 
-![logo luz verde]![lOGO2](https://user-images.githubusercontent.com/66646610/94207136-55bd2080-fe9d-11ea-9892-0d4723fe8638.png)
+![logo luz verde]!<img src="https://user-images.githubusercontent.com/66646610/94207136-55bd2080-fe9d-11ea-9892-0d4723fe8638.png" width="300px"/>
 
 ## Quem somos
 [Israel Batista](https://www.linkedin.com/in/israel-batista/),
