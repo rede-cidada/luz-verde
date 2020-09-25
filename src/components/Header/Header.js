@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "./Link/Link";
-import Logo from "../../assets/img/logo.svg";
+import Logo from "../../assets/img/logo-luz-verde-branca.svg";
 import "./Header.css";
 
 export const Header = () => (
@@ -12,7 +12,7 @@ export const Header = () => (
     <div className="secoes">
       <Link name="Luz verde" />
       <Link name="Energia limpa" />
-      <Link name="Obtenha também" />
+      <Link name="Faça seu aquecedor" />
       <Link name="Quem faz" />
     </div>
   </nav>
