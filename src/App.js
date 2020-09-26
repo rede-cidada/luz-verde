@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter, Switch, Route} from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
-import LuzVerde from './components/LuzVerde/LuzVerde';
+import LuzVerde from "./components/LuzVerde/LuzVerde";
 import { Header } from "./components/Header/Header";
 import Energia from "./components/Energia/Energia";
 import Aquecedor from "./components/Aquecedor/Aquecedor";
@@ -13,29 +13,29 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-    <div className="App">
-      <Header />
-      <Switch>
-        <Route  path='/'>
-          <LuzVerde />
-        </Route>
+      <div className="App">
+        <Header />
+        <main>
+          <Switch>
+            <Route exact path="/">
+              <LuzVerde />
+            </Route>
+            <Route exact path="/enegia">
+              <Energia />
+            </Route>
 
-        <Route  path='/enegia'>
-          <Energia />
-        </Route>
+            <Route exact path="/aquecedor">
+              <Aquecedor />
+            </Route>
 
-        <Route  path='/aquecedor'>
-          <Aquecedor />
-        </Route>
-
-        <Route path='/team'>
-          <Team />
-        </Route>
-
-      </Switch>
-      <Footer />
-    </div>
-    </BrowserRouter> 
+            <Route exact path="/team">
+              <Team />
+            </Route>
+          </Switch>
+          <Footer />
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
