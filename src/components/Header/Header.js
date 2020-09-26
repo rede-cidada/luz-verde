@@ -10,10 +10,10 @@ export const Header = () => (
     </div>
 
     <div className="secoes">
-      <Link to='/' name="Luz verde" />
-      <Link to='/energia' name="Energia limpa" />
-      <Link to='/aquecedor' name="Faça seu aquecedor" />
-      <Link to='/team' name="Quem faz" />
+      <Link to="/">Luz Verde</Link>
+      <Link to="/energia">Energia Limpa</Link>
+      <Link to="/aquecedor">Faça Seu Aquecedor</Link>
+      <Link to="/team">Quem Faz</Link>
     </div>
   </nav>
 );
