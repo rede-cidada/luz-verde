@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "./Link/Link";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/img/logo-luz-verde-branca.svg";
 import "./Header.css";
 
@@ -10,10 +10,10 @@ export const Header = () => (
     </div>
 
     <div className="secoes">
-      <Link name="Luz verde" />
-      <Link name="Energia limpa" />
-      <Link name="Faça seu aquecedor" />
-      <Link name="Quem faz" />
+      <Link to='/' name="Luz verde" />
+      <Link to='/energia' name="Energia limpa" />
+      <Link to='/aquecedor' name="Faça seu aquecedor" />
+      <Link to='/team' name="Quem faz" />
     </div>
   </nav>
 );
