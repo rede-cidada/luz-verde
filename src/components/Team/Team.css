@@ -1,39 +1,48 @@
 .titulo_team {
-    font-size: 3rem;
-    margin: 2rem 0 2rem 2rem;
-    color: rgb(0, 128,54);
-}
-
-.caixa_team {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2.5rem;
+  font-size: 3rem;
+  margin: 10rem 0 3rem 4rem;
+  color: var(--primary-color);
 }
 
 .img_team {
-    width: 200px;
+  width: 12.5rem;
 }
 
-.nomes_team {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 1.5rem;
-    font-size: 1.3rem;
+.caixa_teams {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caixa_team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem;
 }
 
 .nome_team {
-    margin-left: 1.30rem;
-}
-
-.textos_team {
-    display: flex;
-    justify-content: cenetr;
-    align-items: center;
-    margin: 1.5rem;
+  margin: 2rem;
 }
 
 .texto_team {
-    margin-left: 2.3rem;
+  margin-left: 2rem;
+}
+
+.caixa_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_team {
+  margin: 1.5rem 0 0 -2.5rem;
+  width: 3.75rem;
+}
+
+@media (max-width: 900px) {
+  .caixa_teams {
+    flex-direction: column;
+  }
 }

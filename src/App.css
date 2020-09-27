@@ -1,3 +1,9 @@
+:root {
+  --primeira-cor: #008036;
+  --segunda-cor: #ffff66;
+  --terceira-cor: #e1ebf2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +12,7 @@
 }
 
 h1 {
-  color: #008036;
+  color: var(--primeira-cor);
 }
 
 .App main {
