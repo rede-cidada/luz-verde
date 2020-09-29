@@ -1,8 +1,11 @@
+
+
 .titleAquecedor {
     font-size: 3rem; 
     color: rgb(0, 128,54);
     margin-bottom: 3rem;
-    margin-top: 3rem;;
+    margin-top: 3rem;
+   
 }
 
 .subTitle {
@@ -28,3 +31,21 @@
    height: 1.3rem;
    
 }
+@media only screen and (max-width: 800px) {
+    .titleAquecedor{
+        font-size: 2rem; 
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+       
+    .subTitle{
+        font: 1.2rem  normal;
+        margin:.5rem;
+    }
+  
+    .listAquecedor {
+    font-size: .9rem;
+    padding:.4rem;
+    }
+}
+
