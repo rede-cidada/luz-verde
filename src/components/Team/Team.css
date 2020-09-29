@@ -1,17 +1,19 @@
 .titulo_team {
   font-size: 3rem;
-  margin: 10rem 0 3rem 4rem;
-  color: var(--primary-color);
+  margin: 8rem 0 3rem 2rem;
+  color: var(--primeira-cor);
 }
 
 .img_team {
-  width: 12.5rem;
+  width: 10rem;
 }
 
 .caixa_teams {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .caixa_team {
@@ -24,9 +26,11 @@
 
 .nome_team {
   margin: 2rem;
+  font-size: 1.5rem;
 }
 
 .texto_team {
+  font-size: 0.8rem;
   margin-left: 2rem;
 }
 
@@ -37,11 +41,11 @@
 }
 
 .icon_team {
-  margin: 1.5rem 0 0 -2.5rem;
+  margin-top: 1.5rem;
   width: 3.75rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .caixa_teams {
     flex-direction: column;
   }

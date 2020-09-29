@@ -12,14 +12,19 @@ import "../Team/Team.css";
 
 function Team() {
   return (
-    <div>
+    <>
       <h2 className="titulo_team">Quem Somos?</h2>
       <div className="caixa_teams">
         <div className="caixa_team">
           <img className="img_team" src={israel} alt="integrante israel " />
           <p className="nome_team">Israel Batista</p>
           <p className="texto_team">
-            Lorem ipsum dolor sit amet consectetur adipisicing
+            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
+            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
+            ser barista e algumas outras profissões listadas no meu gitHub,
+            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
+            gostaria muito de cativar o proximo com minha arte, obrigada por ver
+            o site e lembre-se bebam água.;
           </p>
           <div className="caixa_icon">
             <a href="https://github.com/Israelfer" target="_blank">
@@ -42,7 +47,12 @@ function Team() {
           <img className="img_team" src={mariah} alt="integrante mariah" />
           <p className="nome_team">Mariah Guedes</p>
           <p className="texto_team">
-            Lorem ipsum dolor sit amet consectetur adipisicing
+            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
+            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
+            ser barista e algumas outras profissões listadas no meu gitHub,
+            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
+            gostaria muito de cativar o proximo com minha arte, obrigada por ver
+            o site e lembre-se bebam água.
           </p>
           <div className="caixa_icon">
             <a href="https://github.com/mariahgll" target="_blank">
@@ -65,7 +75,12 @@ function Team() {
           <img className="img_team" src={marilia} alt="integrante marilia" />
           <p className="nome_team">Marília Andrade</p>
           <p className="texto_team">
-            Lorem ipsum dolor sit amet consectetur adipisicing
+            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
+            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
+            ser barista e algumas outras profissões listadas no meu gitHub,
+            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
+            gostaria muito de cativar o proximo com minha arte, obrigada por ver
+            o site e lembre-se bebam água.
           </p>
           <div className="caixa_icon">
             <a href="https://github.com/mariliandrad" target="_blank">
@@ -85,7 +100,12 @@ function Team() {
           <img className="img_team" src={shellcya} alt="integrante shellcya" />
           <p className="nome_team">Shellcya Habiakel</p>
           <p className="texto_team">
-            Lorem ipsum dolor sit amet consectetur adipisicing
+            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
+            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
+            ser barista e algumas outras profissões listadas no meu gitHub,
+            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
+            gostaria muito de cativar o proximo com minha arte, obrigada por ver
+            o site e lembre-se bebam água.
           </p>
           <div className="caixa_icon">
             <a href="https://github.com/Shellcya" target="_blank">
@@ -108,7 +128,7 @@ function Team() {
           <img className="img_team" src={vanessa} alt="integrante vanessa" />
           <p className="nome_team">Vanessa Oliveira</p>
           <p className="texto_team">
-            Falar sobre mim e complicado mas fazendo um resumo eu gosto de
+            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
             gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
             ser barista e algumas outras profissões listadas no meu gitHub,
             escrevo uns textos e tenho uma lojinha chamada suncake.nessa
@@ -132,7 +152,7 @@ function Team() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
