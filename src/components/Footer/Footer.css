@@ -1,16 +1,16 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 .footer {
-    width: 100%;
-    text-align: center;
-    color: #E1EBF2;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    background-color: #008036;
-    padding: 0.625rem;
-    border-top: 0.063rem solid;   
+  width: 100%;
+  text-align: center;
+  color: #e1ebf2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  background-color: #008036;
+  padding: 0.625rem;
+  border-top: 0.063rem solid;
 }
