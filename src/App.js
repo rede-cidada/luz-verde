@@ -32,8 +32,8 @@ function App() {
               <Team />
             </Route>
           </Switch>
-          <Footer />
         </main>
+        <Footer />
       </div>
     </BrowserRouter>
   );
