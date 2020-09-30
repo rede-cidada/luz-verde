@@ -75,12 +75,11 @@ function Team() {
           <img className="img_team" src={marilia} alt="integrante marilia" />
           <p className="nome_team">Marília Andrade</p>
           <p className="texto_team">
-            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
-            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
-            ser barista e algumas outras profissões listadas no meu gitHub,
-            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
-            gostaria muito de cativar o proximo com minha arte, obrigada por ver
-            o site e lembre-se bebam água.
+            Estudante do curso de Front-End, pela Rede Cidadã, arquiteta e
+            designer. Atua desenvolvendo identidades visuais, conteúdos gráficos
+            e nas horas vagas projeta sonhos. Ama a natureza, MPB, aprecia a
+            arte e compartilha bons momentos ao lado da minha família, meu noivo
+            e dos seus 3 amores: Logan, Scott e Hank.
           </p>
           <div className="caixa_icon">
             <a href="https://github.com/mariliandrad" target="_blank">
