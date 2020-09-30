@@ -20,7 +20,7 @@ function App() {
             <Route exact path="/">
               <LuzVerde />
             </Route>
-            <Route exact path="/enegia">
+            <Route exact path="/energia">
               <Energia />
             </Route>
 

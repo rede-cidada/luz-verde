@@ -1,50 +1,62 @@
 import React from "react";
 import "./Energia.css";
-//import ImgEnergia from '../../assets/img/energia-limpa.png'
+import aguaImg from '../../assets/img-energ-limpas/agua.svg';
+import cataventoImg from '../../assets/img-energ-limpas/catavento.svg';
+import fogoImg from '../../assets/img-energ-limpas/fogo.svg';
+import folhaImg from '../../assets/img-energ-limpas/folha.svg';
+import industriaImg from '../../assets/img-energ-limpas/industria.svg';
+import lampadaImg from '../../assets/img-energ-limpas/lampada.svg';
+import painelSolarImg from '../../assets/img-energ-limpas/painel-solar.svg';
+import radiacaoImg from '../../assets/img-energ-limpas/radiacao.svg';
+import raioImg from '../../assets/img-energ-limpas/raio.svg';
 
 const Energia = () => {
   return (
     <section className="sec-Energia">
-      <h2 className="Title-Energia">Energia Limpa</h2>
+      <h2 className="Title-Energia">Energia Limpa e Acessível</h2>
+      <h4 className="subTitle-Energia">Objetivo de Desenvolvimento Sustentável - nº 7 das Nações Unidas</h4>
 
       <div className="Content-Energia">
         <div className="Text-Energia">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            hendrerit imperdiet purus vitae feugiat. Quisque semper gravida
-            nisi, vel facilisis turpis gravida nec. Donec sollicitudin orci at
-            erat tempor tincidunt. Donec id aliquet sapien. Sed id tellus
-            libero. Nullam laoreet consequat mauris, quis ornare mauris
-            fringilla et. Duis non imperdiet nisl, non sollicitudin turpis.
-            Pellentesque tincidunt quis ipsum sed dictum. Vivamus eu dolor diam.
-            Nam quam mauris, iaculis quis diam ac, malesuada maximus enim. Proin
-            et aliquet dui.
+            Garantir o acesso a fontes de energia fiáveis, sustentáveis e modernas para todos
           </p>
+          
           <p>
-            Quisque nec tortor et metus mattis sodales. Sed volutpat libero ac
-            leo varius commodo non quis eros. Donec eu scelerisque lorem, id
-            hendrerit erat. Pellentesque tincidunt condimentum elit ac
-            efficitur. Pellentesque leo est, luctus congue massa id, tristique
-            blandit libero. Vivamus convallis erat vel tempus convallis. Fusce
-            eros felis, tincidunt vel sollicitudin pharetra, efficitur eget
-            eros. Nullam ut commodo mi. Etiam sit amet ipsum nisi. Integer eu
-            fringilla dolor, ut maximus tellus. Etiam finibus dapibus magna sed
-            eleifend. Curabitur id rutrum erat.
+            Objetivo 7. Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos
           </p>
+          
           <p>
-            Donec ornare velit tortor, et vulputate est mollis eu. Fusce blandit
-            augue quis mattis tincidunt. Duis porttitor, augue et imperdiet
-            blandit, magna augue vehicula nulla, nec condimentum ex metus ac
-            ante. Suspendisse potenti. Sed sed sodales magna, sed cursus ligula.
-            Duis sollicitudin finibus erat, non maximus tellus ultrices
-            dignissim. Nullam efficitur blandit leo et efficitur. Aliquam
-            pellentesque leo enim, quis bibendum libero accumsan et. Curabitur
-            sed scelerisque neque.
+            7.1 Até 2030, assegurar o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia
+          </p>
+          
+          <p>
+            7.2 Até 2030, aumentar substancialmente a participação de energias renováveis na matriz energética global
+          </p>
+          
+          <p>
+            7.3 Até 2030, dobrar a taxa global de melhoria da eficiência energética
+          </p>
+
+          <p>
+            7.a Até 2030, reforçar a cooperação internacional para facilitar o acesso a pesquisa e tecnologias de energia limpa, incluindo energias renováveis, eficiência energética e tecnologias de combustíveis fósseis avançadas e mais limpas, e promover o investimento em infraestrutura de energia e em tecnologias de energia limpa
+          </p>
+          
+          <p>
+            7.b Até 2030, expandir a infraestrutura e modernizar a tecnologia para o fornecimento de serviços de energia modernos e sustentáveis para todos nos países em desenvolvimento, particularmente nos países menos desenvolvidos, nos pequenos Estados insulares em desenvolvimento e nos países em desenvolvimento sem litoral, de acordo com seus respectivos programas de apoio
           </p>
         </div>
 
-        <div>
-          {/* <img src={ImgEnergia} alt="Ícones sobre energia limpa"/> */}
+        <div className="Box-Icon-Energia">
+          <img className="Single-Icon-Energia" src={aguaImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={cataventoImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={fogoImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={folhaImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={industriaImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={lampadaImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={painelSolarImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={radiacaoImg} alt="Ícones sobre energia limpa"/>
+          <img className="Single-Icon-Energia" src={raioImg} alt="Ícones sobre energia limpa"/>
         </div>
       </div>
     </section>
