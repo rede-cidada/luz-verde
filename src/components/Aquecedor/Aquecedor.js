@@ -12,7 +12,7 @@ const Aquecedor = () => {
          <ul >
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option" name="opçao" value="zero" />
-               <label htmlForr="option0">No máximo Duas</label>
+               <label htmlFor="option0">No máximo Duas</label>
             </li>
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option0" name="opçao" value="one" />
