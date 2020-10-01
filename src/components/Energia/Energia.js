@@ -14,37 +14,56 @@ const Energia = () => {
   return (
     <section className="sec-Energia">
       <h2 className="Title-Energia">Energia Limpa e Acessível</h2>
-      <h4 className="subTitle-Energia">Objetivo de Desenvolvimento Sustentável - nº 7 das Nações Unidas</h4>
+      {/* <h4 className="subTitle-Energia">Objetivo de Desenvolvimento Sustentável - nº 7 das Nações Unidas</h4> */}
 
       <div className="Content-Energia">
         <div className="Text-Energia">
           <p>
-            Garantir o acesso a fontes de energia fiáveis, sustentáveis e modernas para todos
+          A energia limpa refere-se a fontes que são renováveis e que não lançam poluentes 
+          na atmosfera, interferindo no ciclo do carbono, ao contrário dos combustíveis fósseis.
           </p>
           
           <p>
-            Objetivo 7. Assegurar o acesso confiável, sustentável, moderno e a preço acessível à energia para todas e todos
+            Quando se fala em “energia limpa”, não estamos falando de um tipo de geração de
+            energia que não cause nenhum impacto ambiental, pois, até o momento, esse sonho 
+            ainda não se tornou realidade.
           </p>
           
           <p>
-            7.1 Até 2030, assegurar o acesso universal, confiável, moderno e a preços acessíveis a serviços de energia
+            Na verdade, a energia limpa refere-se àquela fonte de energia que não lança 
+            poluentes na atmosfera e que apresenta um impacto sobre a natureza somente no 
+            local da instalação da usina.
           </p>
+
+          <h4>
+            Formas de energia limpa
+          </h4>
           
           <p>
-            7.2 Até 2030, aumentar substancialmente a participação de energias renováveis na matriz energética global
-          </p>
-          
-          <p>
-            7.3 Até 2030, dobrar a taxa global de melhoria da eficiência energética
+            Entre as formas de energia que atendem a esses requisitos, podemos citar: 
+            energia eólica, energia solar,energia maremotriz, energia geotérmica, energia hidráulica e 
+            energia nuclear. Todas essas formas de energia causam impactos ambientais, mesmo que sejam 
+            mínimos, porém, não interferem na poluição em nível global.
           </p>
 
           <p>
-            7.a Até 2030, reforçar a cooperação internacional para facilitar o acesso a pesquisa e tecnologias de energia limpa, incluindo energias renováveis, eficiência energética e tecnologias de combustíveis fósseis avançadas e mais limpas, e promover o investimento em infraestrutura de energia e em tecnologias de energia limpa
+            E economizar na conta de energia é meta para a maioria das pessoas, visto que esse recurso 
+            elétrico só aumenta o valor a cada mês, nada mais eficiente do que aproveitar os recursos 
+            naturais do sol para gerar energia limpa. O sistema do aquecedor solar caseiro utiliza 
+            garrafas pet e caixas de leite usadas foi desenvolvido para reduzir o consumo de energia 
+            elétrica e resguardar o meio ambiente.
           </p>
-          
+
           <p>
-            7.b Até 2030, expandir a infraestrutura e modernizar a tecnologia para o fornecimento de serviços de energia modernos e sustentáveis para todos nos países em desenvolvimento, particularmente nos países menos desenvolvidos, nos pequenos Estados insulares em desenvolvimento e nos países em desenvolvimento sem litoral, de acordo com seus respectivos programas de apoio
+            Aqui nós iremos iremos lhe ajudar a calcular os materiais necessários para fazero aquecedor.
           </p>
+
+          <p>
+            Texto retirado dos sites: <a href="https://brasilescola.uol.com.br/quimica/energia-limpa.htm"
+            className="link-Energia" target="_blank" rel="noopener noreferrer">brasilescola.uol.com.br</a> e             <a href="https://www.portal-energia.com/como-construir-um-aquecedor-solar-caseiro-com-garrafas-pet/"
+            className="link-Energia" target="_blank" rel="noopener noreferrer">portal-energia.com</a>
+          </p>
+      
         </div>
 
         <div className="Box-Icon-Energia">
