@@ -4,14 +4,14 @@ import Logo from "../../assets/img/logo-luz-verde-branca.svg";
 import "./Header.css";
 
 export const Header = () => (
-  <nav className="corpo">
+  <nav className="nav">
     <div>
       <img className="logo" src={Logo} alt="Logo Luz Verde" />
     </div>
 
     <div>
       <input id="secoes-hamburguer" type="checkbox" />
-      <label for="secoes-hamburguer">
+      <label htmlFor="secoes-hamburguer">
         <div className="botao-hamburguer">
           <span className="hamburguer"></span>
         </div>

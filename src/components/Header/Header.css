@@ -1,4 +1,4 @@
-nav {
+.nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,12 +10,12 @@ nav {
   padding: 0 30px;
 }
 
-nav .logo {
+.nav .logo {
   width: 100px;
   cursor: pointer;
 }
 
-nav a {
+.nav a {
   margin: 0 20px;
   padding: 10px 0;
   border-bottom: 2px solid var(--quarta-cor);
@@ -23,7 +23,7 @@ nav a {
   text-decoration: none;
 }
 
-nav .secoes {
+.nav .secoes {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -40,32 +40,32 @@ nav .secoes {
   transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
 }
 
-nav .secoes a {
+.nav .secoes a {
   transition: 0.8s;
   font-size: 16px;
   font-weight: 600;
 }
 
-nav .secoes a:hover {
+.nav .secoes a:hover {
   color: var(--segunda-cor);
   border-color: var(--segunda-cor);
 }
 
-nav .botao-hamburguer {
+.nav .botao-hamburguer {
   width: 60px;
   height: 60px;
-  background: var(--segunda-cor);
+  background: var(--quarta-cor);
   border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 0 0 0 var(--segunda-cor), 0 0 0 0 var(--segunda-cor);
+  box-shadow: 0 0 0 0 var(--quarta-cor), 0 0 0 0 var(--quarta-cor);
   transition: box-shadow 1.1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
-nav .botao-hamburguer:hover {
-  box-shadow: 0 0 0 8px var(--segunda-cor), 0 0 0 8px var(--segunda-cor);
+.nav .botao-hamburguer:hover {
+  box-shadow: 0 0 0 8px var(--quarta-cor), 0 0 0 8px var(--quarta-cor);
 }
 
-nav .hamburguer {
+.nav .hamburguer {
   position: relative;
   display: block;
   background: var(--primeira-cor);
@@ -76,8 +76,8 @@ nav .hamburguer {
   transition: 0.5s ease-in-out;
 }
 
-nav .hamburguer:before,
-nav .hamburguer:after {
+.nav .hamburguer:before,
+.nav .hamburguer:after {
   background: var(--primeira-cor);
   content: "";
   display: block;
@@ -87,42 +87,42 @@ nav .hamburguer:after {
   transition: 0.5s ease-in-out;
 }
 
-nav .hamburguer:before {
+.nav .hamburguer:before {
   top: -10px;
 }
 
-nav .hamburguer:after {
+.nav .hamburguer:after {
   bottom: -10px;
 }
 
-nav input {
+.nav input {
   display: none;
 }
 
-nav input:checked ~ label .secoes {
+.nav input:checked ~ label .secoes {
   box-shadow: 0 0 0 130vw var(--quarta-cor), 0 0 0 130vh var(--quarta-cor);
 }
 
-nav input:checked ~ label .hamburguer {
+.nav input:checked ~ label .hamburguer {
   transform: rotate(45deg);
 }
 
-nav input:checked ~ label .hamburguer:before {
+.nav input:checked ~ label .hamburguer:before {
   transform: rotate(90deg);
   top: 0;
 }
 
-nav input:checked ~ label .hamburguer:after {
+.nav input:checked ~ label .hamburguer:after {
   transform: rotate(90deg);
   bottom: 0;
 }
 
-nav input:checked ~ .secoes {
+.nav input:checked ~ .secoes {
   opacity: 1;
 }
 
 @media (min-width: 768px) {
-  nav .secoes {
+  .nav .secoes {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -131,7 +131,7 @@ nav input:checked ~ .secoes {
     opacity: 1;
     transform: none;
   }
-  nav .botao-hamburguer {
+  .nav .botao-hamburguer {
     display: none;
   }
 }
