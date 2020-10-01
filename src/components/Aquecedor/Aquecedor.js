@@ -12,21 +12,21 @@ const Aquecedor = () => {
          <ul >
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option" name="opçao" value="zero" />
-               <label for="option0">No máximo Duas</label>
+               <label htmlForr="option0">No máximo Duas</label>
             </li>
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option0" name="opçao" value="one" />
-               <label for="option">No máximo Quatro</label>
+               <label htmlFor="option">No máximo Quatro</label>
             </li>
 
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option2" name="opçao" value="two" />
-               <label for="option2">No máximo Seis</label>
+               <label htmlFor="option2">No máximo Seis</label>
             </li>
 
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option3" name="opçao" value="three" />
-               <label for="option3">No máximo Oito</label>
+               <label htmlFor="option3">No máximo Oito</label>
             </li>
          </ul>
 
