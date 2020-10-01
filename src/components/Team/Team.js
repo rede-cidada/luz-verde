@@ -19,20 +19,25 @@ function Team() {
           <img className="img_team" src={israel} alt="integrante israel " />
           <p className="nome_team">Israel Batista</p>
           <p className="texto_team">
-            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
-            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
-            ser barista e algumas outras profissões listadas no meu gitHub,
-            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
-            gostaria muito de cativar o proximo com minha arte, obrigada por ver
-            o site e lembre-se bebam água.;
+            Estudante do curso de Front-End pela Rede Cidadã, fotógrafo e web
+            designer, e criador (com a esposa) da loja online: Laranja Mimo -
+            Presentes. Atua com manutenção e atualização de sites em wordpress.
+            E auxiliando e fotografando em ensaios e eventos. Como hobby, gosto
+            de jogar online com amigos. Sou flamenguista e melhor jogador de
+            fifa do meu condomínio.
           </p>
           <div className="caixa_icon">
-            <a href="https://github.com/Israelfer" target="_blank">
+            <a
+              href="https://github.com/Israelfer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="icon_team" src={github} alt="icon do gitHub " />
             </a>
             <a
               href="https://www.linkedin.com/in/israel-batista/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="icon_team"
@@ -47,20 +52,23 @@ function Team() {
           <img className="img_team" src={mariah} alt="integrante mariah" />
           <p className="nome_team">Mariah Guedes</p>
           <p className="texto_team">
-            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
-            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
-            ser barista e algumas outras profissões listadas no meu gitHub,
-            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
-            gostaria muito de cativar o proximo com minha arte, obrigada por ver
-            o site e lembre-se bebam água.
+            Uma estudante de front-end que não vive sem música, amante de
+            fotografia, mente aberta para o novo, minha família e amigos são meu
+            lar, e tenho dois pets que só me dão dor de cabeça, mas que eu não
+            vivo sem!
           </p>
           <div className="caixa_icon">
-            <a href="https://github.com/mariahgll" target="_blank">
+            <a
+              href="https://github.com/mariahgll"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="icon_team" src={github} alt="icon do gitHub " />
             </a>
             <a
               href="https://www.linkedin.com/in/mariah-guedes-96087b1ab/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="icon_team"
@@ -82,10 +90,18 @@ function Team() {
             e dos seus 3 amores: Logan, Scott e Hank.
           </p>
           <div className="caixa_icon">
-            <a href="https://github.com/mariliandrad" target="_blank">
+            <a
+              href="https://github.com/mariliandrad"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="icon_team" src={github} alt="icon do gitHub " />
             </a>
-            <a href="https://www.linkedin.com/in/mariliandrad/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/mariliandrad/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 className="icon_team"
                 src={linkedin}
@@ -107,12 +123,17 @@ function Team() {
             o site e lembre-se bebam água.
           </p>
           <div className="caixa_icon">
-            <a href="https://github.com/Shellcya" target="_blank">
+            <a
+              href="https://github.com/Shellcya"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="icon_team" src={github} alt="icon do gitHub " />
             </a>
             <a
               href="http://linkedin.com/in/shellcya-habiakel-1344301ab"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="icon_team"
@@ -135,12 +156,17 @@ function Team() {
             o site e lembre-se bebam água.
           </p>
           <div className="caixa_icon">
-            <a href="https://github.com/nessalive" target="_blank">
+            <a
+              href="https://github.com/nessalive"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img className="icon_team" src={github} alt="icon do gitHub " />
             </a>
             <a
               href="https://www.linkedin.com/in/vanessa-oliveira-0036a4154/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 className="icon_team"
