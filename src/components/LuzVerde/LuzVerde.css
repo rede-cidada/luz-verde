@@ -1,0 +1,19 @@
+.imagem-home {
+  background-image: url("../../assets/img/imagem-home.jpg");
+  background-size: cover;
+  background-position: 0 12%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 110px - 50px);
+  display: flex;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.sobre-luz-verde {
+  max-width: 50%;
+  text-align: center;
+}
+
+.sobre-luz-verde p {
+  margin-top: 15px;
+}
