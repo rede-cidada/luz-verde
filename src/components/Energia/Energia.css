@@ -23,7 +23,7 @@
 .Text-Energia {
   display: flex;
   flex-direction: column;
-  gap: 15px
+  gap: 15px;
 }
 
 .Box-Icon-Energia {
@@ -34,6 +34,8 @@
 
 .Single-Icon-Energia {
   background-color: turquoise;
+  width: 100%;
+  height: 100%;
   padding: 20px;
 }
 
