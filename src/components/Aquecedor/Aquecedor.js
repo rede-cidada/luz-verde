@@ -1,5 +1,7 @@
-import React from "react";
-import '../Aquecedor/Aquecedor.css'
+import React, { useState } from "react";
+import '../Aquecedor/Aquecedor.css';
+
+
 
 const Aquecedor = () => {
    return (
@@ -11,22 +13,22 @@ const Aquecedor = () => {
 
          <ul >
             <li className="listAquecedor">
-               <input className="optionAquecedor" type="radio" id="option" name="opçao" value="zero" />
-               <label htmlFor="option0">No máximo Duas</label>
+               {date.dates.map((date, index) => (<input className="optionAquecedor" type="radio" id="option" name="opçao" value="zero" />}
+               <label htmlFor="option">Para duas casas</label>
             </li>
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option0" name="opçao" value="one" />
-               <label htmlFor="option">No máximo Quatro</label>
+               <label htmlFor="option0">Para quatro casas</label>
             </li>
 
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option2" name="opçao" value="two" />
-               <label htmlFor="option2">No máximo Seis</label>
+               <label htmlFor="option2">Para seis casas</label>
             </li>
 
             <li className="listAquecedor">
                <input className="optionAquecedor" type="radio" id="option3" name="opçao" value="three" />
-               <label htmlFor="option3">No máximo Oito</label>
+               <label htmlFor="option3">Para oito casas</label>
             </li>
          </ul>
 
