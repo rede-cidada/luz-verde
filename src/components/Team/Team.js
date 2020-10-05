@@ -115,12 +115,9 @@ function Team() {
           <img className="img_team" src={shellcya} alt="integrante shellcya" />
           <p className="nome_team">Shellcya Habiakel</p>
           <p className="texto_team">
-            Falar sobre mim é complicado mas fazendo um resumo eu gosto de
-            gatos, cachorros, fotos, cafeterias e cheiro de café, queria um dia
-            ser barista e algumas outras profissões listadas no meu gitHub,
-            escrevo uns textos e tenho uma lojinha chamada suncake.nessa
-            gostaria muito de cativar o proximo com minha arte, obrigada por ver
-            o site e lembre-se bebam água.
+            Estudante de Front-end, aventureira que sonha em conhecer o mundo,
+            novas culturas e aprender novos idiomas, não vive sem música e ama
+            colecionar bons momentos com amigos e família.
           </p>
           <div className="caixa_icon">
             <a
