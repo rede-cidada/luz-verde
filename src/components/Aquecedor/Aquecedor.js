@@ -1,56 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../Aquecedor/Aquecedor.css";
 
 const Aquecedor = () => {
+  const [date, setDate] = useState([]);
+
+  useEffect(() => {
+    const getData = async () => {
+      const materiais = await fetch(
+        "https://raw.githubusercontent.com/rede-cidada/fake-data-api/main/luz-verde/data.js"
+      );
+
+      setDate(materiais);
+    };
+    getData();
+  }, []);
   return (
     <section className="boxAquecedor">
       <h2 className="titleAquecedor">Faça Seu Aquecedor </h2>
       <h4 className="subTitle">Para quantas casas deseja fazer?</h4>
-
-      <ul>
-        <li className="listAquecedor">
-          <input
-            className="optionAquecedor"
-            type="radio"
-            id="option"
-            name="opçao"
-            value="zero"
-          />
-          <label htmlFor="option">Para duas casas</label>
-        </li>
-        <li className="listAquecedor">
-          <input
-            className="optionAquecedor"
-            type="radio"
-            id="option0"
-            name="opçao"
-            value="one"
-          />
-          <label htmlFor="option0">Para quatro casas</label>
-        </li>
-
-        <li className="listAquecedor">
-          <input
-            className="optionAquecedor"
-            type="radio"
-            id="option2"
-            name="opçao"
-            value="two"
-          />
-          <label htmlFor="option2">Para seis casas</label>
-        </li>
-
-        <li className="listAquecedor">
-          <input
-            className="optionAquecedor"
-            type="radio"
-            id="option3"
-            name="opçao"
-            value="three"
-          />
-          <label htmlFor="option3">Para oito casas</label>
-        </li>
-      </ul>
+      {/* {date.map((dates, index) => (
+        <button key={index}>{dates.id}</button>
+      ))} */}
+      <button onClick={() => alert(date[0])}>Aperta</button>
     </section>
   );
 };

@@ -53,9 +53,9 @@ function Team() {
           <p className="nome_team">Mariah Guedes</p>
           <p className="texto_team">
             Uma estudante de front-end que não vive sem música, amante de
-            fotografia, mente aberta para o novo, minha família e amigos são meu
-            lar, e tenho dois pets que só me dão dor de cabeça, mas que eu não
-            vivo sem!
+            fotografia, mente aberta para o novo e que sonha em conhecer outros
+            países e novas culturas, minha família e amigos são meu lar, e tenho
+            dois pets que só me dão dor de cabeça, mas que eu não vivo sem!
           </p>
           <div className="caixa_icon">
             <a
