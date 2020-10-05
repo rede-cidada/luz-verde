@@ -86,8 +86,8 @@ function Team() {
             Estudante do curso de Front-End, pela Rede Cidadã, arquiteta e
             designer. Atua desenvolvendo identidades visuais, conteúdos gráficos
             e nas horas vagas projeta sonhos. Ama a natureza, MPB, aprecia a
-            arte e compartilha bons momentos ao lado da minha família, meu noivo
-            e dos seus 3 amores: Logan, Scott e Hank.
+            arte e compartilha bons momentos ao lado da família, do noivo e dos
+            seus 3 amores: Logan, Scott e Hank.
           </p>
           <div className="caixa_icon">
             <a
