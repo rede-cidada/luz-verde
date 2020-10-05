@@ -37,6 +37,7 @@
   height: calc(100% - 110px);
   transform: translate(-50%, -50%);
   opacity: 0;
+  visibility: hidden;
   transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
 }
 
@@ -119,6 +120,7 @@
 
 .nav input:checked ~ .secoes {
   opacity: 1;
+  visibility: visible;
 }
 
 @media (min-width: 768px) {
@@ -129,6 +131,7 @@
     margin: 0 25px;
     position: static;
     opacity: 1;
+    visibility: visible;
     transform: none;
   }
   .nav .botao-hamburguer {
