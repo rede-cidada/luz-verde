@@ -1,28 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img/logo-luz-verde-branca.svg";
 import "./Header.css";
 
-export const Header = () => (
-  <nav className="nav">
-    <div>
-      <img className="logo" src={Logo} alt="Logo Luz Verde" />
-    </div>
-
-    <div>
-      <input id="secoes-hamburguer" type="checkbox" />
-      <label htmlFor="secoes-hamburguer">
-        <div className="botao-hamburguer">
-          <span className="hamburguer"></span>
-        </div>
-      </label>
-
-      <div className="secoes">
-        <Link to="/">Luz Verde</Link>
-        <Link to="/energia">Energia Limpa</Link>
-        <Link to="/aquecedor">Faça Seu Aquecedor</Link>
-        <Link to="/team">Quem Faz</Link>
+export const Header = () => {
+  const [open, setOpen] = useState(false);
+  const menuClique = () => {
+    setOpen(false);
+  };
+  const botaoClique = () => {
+    setOpen(!open);
+  };
+  return (
+    <nav className="nav">
+      <div>
+        <a href="/">
+          <img className="logo" src={Logo} alt="Logo Luz Verde" />
+        </a>
       </div>
-    </div>
-  </nav>
-);
+
+      <div>
+        <input
+          id="secoes-hamburguer"
+          type="checkbox"
+          checked={open}
+          onChange={setOpen}
+        />
+        <label htmlFor="">
+          <div className="botao-hamburguer" onClick={botaoClique}>
+            <span className="hamburguer"></span>
+          </div>
+        </label>
+
+        <div className="secoes">
+          <Link to="/" onClick={menuClique}>
+            Luz Verde
+          </Link>
+          <Link to="/energia" onClick={menuClique}>
+            Energia Limpa
+          </Link>
+          <Link to="/aquecedor" onClick={menuClique}>
+            Faça Seu Aquecedor
+          </Link>
+          <Link to="/team" onClick={menuClique}>
+            Quem Faz
+          </Link>
+        </div>
+      </div>
+    </nav>
+  );
+};

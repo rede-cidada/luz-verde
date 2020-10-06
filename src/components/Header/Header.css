@@ -18,7 +18,7 @@
 .nav a {
   margin: 0 20px;
   padding: 10px 0;
-  border-bottom: 2px solid var(--quarta-cor);
+  border-bottom: 2px solid transparent;
   color: var(--quarta-cor);
   text-decoration: none;
 }
@@ -136,5 +136,11 @@
   }
   .nav .botao-hamburguer {
     display: none;
+  }
+  .nav .botao-hamburguer a {
+    display: none;
+    border-bottom: 6px solid var(--segunda-cor);
+    transition: 0.25s 0.1s cubic-bezier(0, 1.07, 0, 1.02);
+    cursor: pointer;
   }
 }
