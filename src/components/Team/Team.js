@@ -13,7 +13,7 @@ import "../Team/Team.css";
 function Team() {
   return (
     <>
-      <h2 className="titulo_team">Quem Somos?</h2>
+      <h2 className="titulo_team">Quem Faz</h2>
       <div className="caixa_teams">
         <div className="caixa_team">
           <img className="img_team" src={israel} alt="integrante israel " />
