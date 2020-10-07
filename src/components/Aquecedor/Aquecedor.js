@@ -22,9 +22,9 @@ const Aquecedor = () => {
     <section className="boxAquecedor">
       <h2 className="titleAquecedor">Faça Seu Aquecedor </h2>
       <h4 className="subTitle">Para quantas casas deseja fazer?</h4>
-      {date.map(({ id }, index) => (
+      {date.map(({ id, titulo }, index) => (
         <button key={id} onClick={() => setIndex(index)}>
-          {id}
+          {titulo}
         </button>
       ))}
 
