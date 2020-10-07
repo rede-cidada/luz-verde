@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+
 import "../Aquecedor/Aquecedor.css";
 
 const Aquecedor = () => {
   const [date, setDate] = useState([]);
+  const [index, setIndex] = useState();
 
   useEffect(() => {
     const getData = async () => {
@@ -11,7 +12,9 @@ const Aquecedor = () => {
         "https://raw.githubusercontent.com/rede-cidada/fake-data-api/main/luz-verde/data.json"
       );
       const data = await materiais.json();
+
       setDate(data);
+      console.log(data);
     };
     getData();
   }, []);
@@ -19,10 +22,13 @@ const Aquecedor = () => {
     <section className="boxAquecedor">
       <h2 className="titleAquecedor">Faça Seu Aquecedor </h2>
       <h4 className="subTitle">Para quantas casas deseja fazer?</h4>
-      {date.map(({ id, materiais }) => (
-        <button key={id}>{id}</button>
+      {date.map(({ id }, index) => (
+        <button key={id} onClick={() => setIndex(index)}>
+          {id}
+        </button>
       ))}
-      {/* <button onClick={() => alert(date[0])}>Aperta</button> */}
+
+      {date && <p>{date[index]?.materiais}</p>}
     </section>
   );
 };
