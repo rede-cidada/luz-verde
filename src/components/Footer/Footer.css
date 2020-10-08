@@ -8,4 +8,7 @@
   border-top: 0.063rem solid;
   flex-shrink: 0;
   height: 50px;
+  position: fixed;
+  bottom:0;
+  left:0;
 }
