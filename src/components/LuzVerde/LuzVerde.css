@@ -17,6 +17,11 @@
 .sobre-luz-verde p {
   margin-top: 15px;
 }
+
+.subtituloLuz {
+  font-size: 1rem;
+}
+
 @media (max-width: 767px) {
   .imagem-home {
     justify-content: center;
