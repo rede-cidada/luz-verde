@@ -22,13 +22,16 @@ const Aquecedor = () => {
     <section className="boxAquecedor">
       <h2 className="titleAquecedor">Faça Seu Aquecedor </h2>
       <h4 className="subTitle">Para quantas casas deseja fazer?</h4>
-      {date.map(({ id, titulo }, index) => (
-        <button key={id} onClick={() => setIndex(index)}>
-          {titulo}
-        </button>
-      ))}
 
-      {date && <p>{date[index]?.materiais}</p>}
+      <div className="dadosAquecedor">
+        {date.map(({ id, titulo }, index) => (
+          <button className="botaoAquecedor" key={id} onClick={() => setIndex(index)}>
+            {titulo}
+          </button>
+        ))}
+
+        {date && <p>{date[index]?.materiais}</p>}
+      </div>
     </section>
   );
 };
