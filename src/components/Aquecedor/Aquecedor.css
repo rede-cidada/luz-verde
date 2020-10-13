@@ -45,3 +45,16 @@
     padding: 0.4rem;
   }
 }
+
+.dadosAquecedor {
+  display: flex;
+  
+  
+}
+ 
+.botaoAquecedor {
+ height: 20%;
+  width: 40%;
+  margin: .5rem;
+  
+}
