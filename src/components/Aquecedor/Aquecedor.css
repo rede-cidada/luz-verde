@@ -60,6 +60,14 @@
   text-decoration: none;
   border: 0.3rem solid var(--segunda-cor);
   padding: 1rem;
-  border-radius: 10%;
+  border-radius: 15%;
   font-size: 1rem;
+  transform: 0.3s;
+}
+
+.botaoAquecedor:hover {
+  color: var(--primeira-cor);
+  background: var(--terceira-cor);
+  cursor: pointer;
+  border-bottom: 0.3rem solid var(--segunda-cor);
 }
