@@ -30,7 +30,7 @@ const Aquecedor = () => {
           </button>
         ))}
 
-        {date && <p>{date[index]?.materiais}</p>}
+        <p className="dadosAquecedor">{date && <p>{date[index]?.materiais}</p>}</p>
       </div>
     </section>
   );
