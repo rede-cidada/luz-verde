@@ -44,11 +44,21 @@
     font-size: 0.9rem;
     padding: 0.4rem;
   }
+
+  .dadosAquecedor{
+    flex-direction: column;
+    justify-content: center;      
+    margin:2rem;
+    
+   } 
+   
+
 }
 
 .dadosAquecedor {
   display: flex;
   justify-content: space-between;
+  
 }
 
 .botaoAquecedor {
@@ -71,3 +81,4 @@
   cursor: pointer;
   border-bottom: 0.3rem solid var(--segunda-cor);
 }
+
