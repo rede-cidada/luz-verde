@@ -14,7 +14,7 @@ const Aquecedor = () => {
       const data = await materiais.json();
 
       setDate(data);
-      console.log(data);
+
     };
     getData();
   }, []);
@@ -30,7 +30,7 @@ const Aquecedor = () => {
           </button>
         ))}
 
-        {date && <p>{date[index]?.materiais}</p>}
+        <p className="textAquecedor">{date && <p>{date[index]?.materiais}</p>}</p>
       </div>
     </section>
   );

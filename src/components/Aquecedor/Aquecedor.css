@@ -44,17 +44,41 @@
     font-size: 0.9rem;
     padding: 0.4rem;
   }
+
+  .dadosAquecedor{
+    flex-direction: column;
+    justify-content: center;      
+    margin:2rem;
+    
+   } 
+   
+
 }
 
 .dadosAquecedor {
   display: flex;
-  
+  justify-content: space-between;
   
 }
- 
+
 .botaoAquecedor {
- height: 20%;
-  width: 40%;
-  margin: .5rem;
-  
+  height: 20%;
+  margin: 1rem;
+  display: flex;
+  background: var(--primeira-cor);
+  color: var(--quarta-cor);
+  text-decoration: none;
+  border: 0.3rem solid var(--segunda-cor);
+  padding: 1rem;
+  border-radius: 15%;
+  font-size: 1rem;
+  transform: 0.3s;
 }
+
+.botaoAquecedor:hover {
+  color: var(--primeira-cor);
+  background: var(--terceira-cor);
+  cursor: pointer;
+  border-bottom: 0.3rem solid var(--segunda-cor);
+}
+
