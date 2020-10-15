@@ -117,10 +117,7 @@ function Team() {
           <p className="texto_team">
             Estudante de Front-end, aventureira que sonha em conhecer o mundo,
             novas culturas e aprender novos idiomas, não vive sem música e ama
-            colecionar bons momentos com amigos e família.Estudante de
-            Front-end, aventureira que sonha em conhecer o mundo, novas culturas
-            e aprender novos idiomas, não vive sem música e ama colecionar bons
-            momentos com amigos e família.
+            colecionar bons momentos com amigos e família.
           </p>
           <div className="caixa_icon">
             <a

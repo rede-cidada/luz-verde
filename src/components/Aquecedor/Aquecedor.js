@@ -32,6 +32,11 @@ const Aquecedor = () => {
 
         <p className="textAquecedor">{date && <p>{date[index]?.materiais}</p>}</p>
       </div>
+      <div>
+        <h3 className="subTitle">instruções de como corta a caixa de leitede e como construir o aquecedor</h3>
+      <iframe className="video" width="400" height="300" src="https://www.youtube.com/embed/8TeYdtupvJM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe className="video" width="400" height="300" src="https://www.youtube.com/embed/-UOAoNXo_lE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </section>
   );
 };
