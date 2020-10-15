@@ -8,8 +8,8 @@ export default function LuzVerde() {
         <h1 className="Title-LuzVerde">O Luz Verde </h1>
 
         <p className="subtituloLuz">
-          É uma ideia sustentável que visa a geração de energia limpa, econômica
-          e renovável, através da utilização de garrafas pets.
+          uma ideia sustentável que visa a geração de energia limpa, econômica
+          e renovável, a preço justo, através da utilização de materiais recicláveis.
         </p>
       </div>
     </section>
