@@ -19,9 +19,9 @@
 
 .caixa_team {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   margin: 2rem;
 }
 
@@ -33,6 +33,8 @@
 .texto_team {
   font-size: 1rem;
   margin-left: 2rem;
+  width: 170px;
+  height: 170px;
 }
 
 .caixa_icon {
@@ -42,12 +44,26 @@
 }
 
 .icon_team {
-  margin: 1.5rem 0 1.5rem 0;
+  margin: 17rem 0 1.5rem 0;
   width: 3.75rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .caixa_teams {
     flex-direction: column;
+  }
+  .caixa_team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto_team {
+    margin-top: 1.5rem;
+    width: 300px;
+  }
+
+  .icon_team {
+    margin: 3.5rem 0 1.5rem 0;
+    width: 3.75rem;
   }
 }
