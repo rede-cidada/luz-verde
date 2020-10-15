@@ -22,9 +22,8 @@ function Team() {
             Estudante do curso de Front-End pela Rede Cidadã, fotógrafo e web
             designer, e criador (com a esposa) da loja online: Laranja Mimo -
             Presentes. Atua com manutenção e atualização de sites em wordpress.
-            E auxiliando e fotografando em ensaios e eventos. Como hobby, gosto
-            de jogar online com amigos. Sou flamenguista e melhor jogador de
-            fifa do meu condomínio.
+            E auxiliando e fotografando em ensaios e eventos. Natural de Macaé, Rio de Janeiro, flamenguista nato.
+            Como hobby, ama viajar e gosta de jogar online com amigos.
           </p>
           <div className="caixa_icon">
             <a
@@ -117,10 +116,7 @@ function Team() {
           <p className="texto_team">
             Estudante de Front-end, aventureira que sonha em conhecer o mundo,
             novas culturas e aprender novos idiomas, não vive sem música e ama
-            colecionar bons momentos com amigos e família.Estudante de
-            Front-end, aventureira que sonha em conhecer o mundo, novas culturas
-            e aprender novos idiomas, não vive sem música e ama colecionar bons
-            momentos com amigos e família.
+            colecionar bons momentos com amigos e família.
           </p>
           <div className="caixa_icon">
             <a

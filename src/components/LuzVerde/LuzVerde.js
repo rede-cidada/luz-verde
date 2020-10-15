@@ -5,7 +5,7 @@ export default function LuzVerde() {
   return (
     <section className="imagem-home">
       <div className="sobre-luz-verde">
-        <h1>O Luz Verde </h1>
+        <h1 className="Title-LuzVerde">O Luz Verde </h1>
 
         <p className="subtituloLuz">
           É uma ideia sustentável que visa a geração de energia limpa, econômica
