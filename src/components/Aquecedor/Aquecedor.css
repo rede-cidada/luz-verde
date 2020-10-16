@@ -18,25 +18,6 @@
   margin: 2rem;
 }
 
-@media only screen and (max-width: 800px) {
-  .titleAquecedor {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-  }
-
-  .subTitle {
-    font: 1.2rem normal;
-    margin: 0.5rem;
-  }
-
-  .dadosAquecedor {
-    flex-direction: column;
-    justify-content: center;
-    margin: 2rem;
-  }
-}
-
 .dadosAquecedor {
   display: flex;
   justify-content: space-between;
@@ -44,6 +25,19 @@
 
 .textAquecedor {
   font-size: 1.2rem;
+  border-radius: 1rem;
+  background-color: var(--terceira-cor);
+  padding: 1.5rem;
+  width: 50%;
+}
+
+.textAquecedor h3,
+.textAquecedor p {
+  margin-bottom: 0.5rem;
+}
+
+.textAquecedor:empty {
+  height: 5rem;
 }
 
 .botaoAquecedor {
@@ -56,11 +50,12 @@
   background: var(--primeira-cor);
   color: var(--quarta-cor);
   text-decoration: none;
-  border: none;
+  border: 0.3rem solid transparent;
   padding: 1rem;
   border-radius: 30px;
   font-size: 1rem;
   transition: all 0.5s;
+  outline: none;
 }
 
 .botaoAquecedor:hover {
@@ -70,7 +65,55 @@
   border: 0.3rem solid var(--segunda-cor);
 }
 
+.sectionVideos {
+  display: flex;
+}
+
+.videoContainer {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  padding-bottom: 30%;
+  margin: 0.5rem 1rem 2rem;
+}
+
 .video {
-  margin: 0.5rem 2rem 2rem 2rem;
   border: 0.3rem solid var(--primeira-cor);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .titleAquecedor {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .subTitle {
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+
+  .dadosAquecedor {
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem;
+  }
+
+  .textAquecedor {
+    width: 100%;
+  }
+
+  .sectionVideos {
+    flex-direction: column;
+  }
+
+  .videoContainer {
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
 }
