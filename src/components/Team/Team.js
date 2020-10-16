@@ -12,7 +12,7 @@ import "../Team/Team.css";
 
 function Team() {
   return (
-    <>
+    <div className="box_team">
       <h2 className="titulo_team">Quem Faz</h2>
       <div className="caixa_teams">
         <div className="caixa_team">
@@ -173,7 +173,7 @@ function Team() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
