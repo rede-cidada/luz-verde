@@ -3,7 +3,7 @@
   background-size: cover;
   background-position: 0 12%;
   background-repeat: no-repeat;
-  height: calc(100vh - 110px - 50px);
+  height: calc(100vh - 90px - 50px);
   display: flex;
   padding: 0 50px;
   align-items: center;

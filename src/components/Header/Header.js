@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../assets/img/logo-luz-verde-branca.svg";
 import "./Header.css";
 
@@ -33,18 +33,18 @@ export const Header = () => {
         </label>
 
         <div className="secoes">
-          <Link to="/" onClick={menuClique}>
+          <NavLink exact to="/" onClick={menuClique} activeClassName="active">
             Luz Verde
-          </Link>
-          <Link to="/energia" onClick={menuClique}>
+          </NavLink>
+          <NavLink exact to="/energia" onClick={menuClique} activeClassName="active">
             Energia Limpa
-          </Link>
-          <Link to="/aquecedor" onClick={menuClique}>
+          </NavLink>
+          <NavLink exact to="/aquecedor" onClick={menuClique} activeClassName="active">
             Faça Seu Aquecedor
-          </Link>
-          <Link to="/team" onClick={menuClique}>
+          </NavLink>
+          <NavLink exact to="/team" onClick={menuClique} activeClassName="active">
             Quem Faz
-          </Link>
+          </NavLink>
         </div>
       </div>
     </nav>
