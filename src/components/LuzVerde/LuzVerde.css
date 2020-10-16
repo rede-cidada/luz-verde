@@ -12,6 +12,10 @@
 .sobre-luz-verde {
   max-width: 50%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sobre-luz-verde p {
@@ -19,11 +23,40 @@
 }
 
 .Title-LuzVerde {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .subtituloLuz {
   font-size: 1rem;
+}
+
+.btn-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin: 1.3rem;
+  background: var(--primeira-cor);
+  color: var(--quarta-cor);
+  text-decoration: none;
+  border: 0.3rem solid transparent;
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+  transition: all 0.5s;
+  outline: none;
+}
+
+.btn-home:hover {
+  color: var(--primeira-cor);
+  background: var(--terceira-cor);
+  cursor: pointer;
+  border: 0.3rem solid var(--segunda-cor);
+}
+
+.home-link {
+  text-decoration: none;
+  color: inherit
 }
 
 @media (max-width: 767px) {

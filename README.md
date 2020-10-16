@@ -1,10 +1,10 @@
 # Luz Verde 💡
 
-Um site sobre energia renovável de uma forma prática e acessível.
+Luz Verde é uma proposta de aplicativo/site, feito em React, na procura de soluções sobre energia renovável de uma forma prática e acessível.
 
 ## Nosso Objetivo
 
-Nosso objetivo é incentivar o uso da energia renovável criando um aquecedor. Informando a lista de materiais necessários, e multiplicando pelo número de casas.
+Nosso objetivo é incentivar o uso da energia renovável criando um aquecedor de água. Informando a lista de materiais necessários, e multiplicando pelo número de casas.
 
 <img src="https://user-images.githubusercontent.com/66646610/94207136-55bd2080-fe9d-11ea-9892-0d4723fe8638.png" width="300px"/>
 
