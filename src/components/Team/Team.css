@@ -72,6 +72,8 @@
   .texto_team {
     margin-top: 1.5rem;
     width: 300px;
+    height: 200px;
+    font-size: 1rem;
   }
 
   .icon_team {
