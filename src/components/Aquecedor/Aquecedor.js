@@ -38,7 +38,7 @@ const Aquecedor = () => {
 					</div>}
       </section>
 
-      <h3 className="subTitle">Instruções de como cortar a caixa de leite e como construir o aquecedor</h3>
+      <h3 className="subTitle">Instruções de como construir o seu aquecedor</h3>
 
       <section className="sectionVideos">
       <div className="videoContainer">
