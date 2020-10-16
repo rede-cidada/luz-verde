@@ -56,7 +56,7 @@
 
 .home-link {
   text-decoration: none;
-  color: inherit
+  color: inherit;
 }
 
 @media (max-width: 767px) {
@@ -65,5 +65,18 @@
     font-size: 16px;
     padding: 5px 0;
     background-position-x: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .imagem-home {
+    background: var(--terceira-cor);
+    background-size: cover;
+    background-position: 0 12%;
+    background-repeat: no-repeat;
+    height: calc(100vh - 90px - 50px);
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
   }
 }

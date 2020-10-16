@@ -33,7 +33,7 @@ const Aquecedor = () => {
 
         {date && <div className="textAquecedor">
 					<h3>{date[index]?.titulo}</h3>
-					{index >=0? <p>Materiais:</p>:'Selecione o número de casas que deseja ao lado.' }
+					{index >=0? <p>Materiais:</p>:'Selecione o número de casas que deseja.' }
 					<p>{date[index]?.materiais}</p>
 					</div>}
       </section>
