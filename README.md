@@ -1,7 +1,7 @@
 # Luz Verde 💡
 
 Luz Verde é uma proposta de aplicativo/site, feito em React, na procura de soluções sobre energia renovável de uma forma prática e acessível.
-
+[Site](https://luz-verde.vercel.app/)
 ## Nosso Objetivo
 
 Nosso objetivo é incentivar o uso da energia renovável criando um aquecedor de água. Informando a lista de materiais necessários, e multiplicando pelo número de casas.
